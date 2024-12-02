@@ -1,0 +1,26 @@
+Laravel 
+
+05/11/24
+
+L'INSTALLATION
+documention sur page d accueil 'get started'
+
+1 - Installation sur invite de commande :
+ligne de commande : 
+'C:\laragon\www\LaravelProjet> composer create-project laravel/laravel=10 TutoLaravel'
+
+2 - les dossiers créés par Laravel
+App : le dossier ou on va passer le plus de temps et ensuite on a config ou on peut configurer les emails, le cache et autres...
+dataBase : base de données
+seeders : remplir la bd avec les données
+public :  le dossier public et l index
+Routes : pour config le routing
+
+LE ROUTING
+
+dans le dossier routes, dans web.php, on peut ecrire les regles de routing  
+on peut specifier des paramettre pr les slug (dans l'url phrase plus facile à comprendre type : wwww.film.com/horror-movies 
+ou recuperer des parametres dans l url de type get, post... avec une fonction de classe Route, j injecte un parametre de type Request (permet de recup des infos sur la requete)
+
+
+
